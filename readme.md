@@ -23,3 +23,22 @@ You can install `pandas` using pip:
 
 ```bash
 pip install pandas
+```
+How It Works
+Processing .asc Files:
+
+The script reads .asc files from a specified folder.
+It extracts patient information (name, ID, sex), measurement data (such as systolic, diastolic pressure), and assigns a collection stage (e.g., Edited Awake BP).
+The files are merged into a single CSV file.
+Summarizing Measurements:
+
+After merging the data, the script groups the measurements by patient and date, calculating the number of measurements per day.
+The summary also includes the number of unique days each patient was measured.
+Folder Structure
+ASC Files: Store all your .asc files in one folder.
+Output: The script outputs two files:
+A CSV with the merged measurement data.
+A file with the measurement summary (can be .txt or .csv).
+Usage
+1. Modify the Folder Path
+In the script, you need to specify the folder path where your .asc files are stored. Replace the path in the folder_path variable:
