@@ -1,0 +1,316 @@
+Patient Name,Patient ID,Sex,Index,Reason,Sys,Dia,HR,Mean,Hour,Minute,Month,Day,Year,Tag,Comments,Collection Stage
+Almustafa Qusai,00168743,Male,1,0,--,--,--,--,16,29,7,8,2024,1,Air leak,Omitted Awake BP
+Almustafa Qusai,00168743,Male,2,0,--,--,--,--,16,33,7,8,2024,1,Air leak,Omitted Awake BP
+Almustafa Qusai,00168743,Male,3,0,119,68,66,85,16,51,7,8,2024,0,,Edited Awake BP
+Almustafa Qusai,00168743,Male,4,0,116,69,66,85,17,0,7,8,2024,0,,Edited Awake BP
+Almustafa Qusai,00168743,Male,5,0,--,--,--,--,18,0,7,8,2024,1,Air leak,Omitted Awake BP
+Almustafa Qusai,00168743,Male,6,0,--,--,--,--,18,4,7,8,2024,1,Air leak,Omitted Awake BP
+Almustafa Qusai,00168743,Male,7,0,--,--,--,--,18,30,7,8,2024,1,Air leak,Omitted Awake BP
+Almustafa Qusai,00168743,Male,8,0,--,--,--,--,18,34,7,8,2024,1,User abort,Omitted Awake BP
+Almustafa Qusai,00168743,Male,9,0,--,--,--,--,19,0,7,8,2024,1,Air leak,Omitted Awake BP
+Almustafa Qusai,00168743,Male,10,0,--,--,--,--,19,4,7,8,2024,1,User abort,Omitted Awake BP
+Bao Duo,00168744,Male,1,0,134,85,89,101,15,25,8,1,2024,1,,Omitted Awake BP
+Bao Duo,00168744,Male,2,0,119,71,80,87,15,49,8,1,2024,0,,Edited Awake BP
+Bao Duo,00168744,Male,3,0,148,85,86,106,16,0,8,1,2024,1,,Omitted Awake BP
+Bao Duo,00168744,Male,4,0,--,--,--,--,16,30,8,1,2024,1,User abort,Omitted Awake BP
+Bao Duo,00168744,Male,5,0,--,--,--,--,17,0,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,6,0,--,--,--,--,17,5,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,7,0,--,--,--,--,17,30,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,8,0,--,--,--,--,17,35,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,9,0,--,--,--,--,18,0,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,10,0,--,--,--,--,18,5,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,11,0,--,--,--,--,18,30,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,12,0,--,--,--,--,18,35,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,13,0,--,--,--,--,19,0,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,14,0,--,--,--,--,19,5,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,15,0,--,--,--,--,19,30,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,16,0,--,--,--,--,19,35,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,17,0,--,--,--,--,20,0,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,18,0,--,--,--,--,20,5,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,19,0,--,--,--,--,20,30,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,20,0,--,--,--,--,20,35,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,21,0,--,--,--,--,21,0,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,22,0,--,--,--,--,21,5,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,23,0,--,--,--,--,21,30,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,24,0,--,--,--,--,21,35,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,25,0,--,--,--,--,22,0,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,26,0,--,--,--,--,22,5,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,27,0,--,--,--,--,22,30,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,28,0,--,--,--,--,22,35,8,1,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,29,0,--,--,--,--,23,0,8,1,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,30,0,--,--,--,--,23,5,8,1,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,31,0,--,--,--,--,0,0,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,32,0,--,--,--,--,0,5,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,33,0,--,--,--,--,1,0,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,34,0,--,--,--,--,1,5,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,35,0,--,--,--,--,2,0,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,36,0,--,--,--,--,2,5,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,37,0,--,--,--,--,3,0,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,38,0,--,--,--,--,3,5,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,39,0,--,--,--,--,4,0,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,40,0,--,--,--,--,4,5,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,41,0,--,--,--,--,5,0,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,42,0,--,--,--,--,5,5,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,43,0,--,--,--,--,6,0,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,44,0,--,--,--,--,6,5,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,45,0,--,--,--,--,7,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,46,0,--,--,--,--,7,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,47,0,--,--,--,--,7,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,48,0,--,--,--,--,7,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,49,0,--,--,--,--,8,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,50,0,--,--,--,--,8,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,51,0,--,--,--,--,8,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,52,0,--,--,--,--,8,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,53,0,--,--,--,--,9,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,54,0,--,--,--,--,9,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,55,0,--,--,--,--,9,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,56,0,--,--,--,--,9,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,57,0,--,--,--,--,10,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,58,0,--,--,--,--,10,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,59,0,--,--,--,--,10,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,60,0,--,--,--,--,10,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,61,0,--,--,--,--,11,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,62,0,--,--,--,--,11,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,63,0,--,--,--,--,11,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,64,0,--,--,--,--,11,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,65,0,--,--,--,--,12,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,66,0,--,--,--,--,12,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,67,0,--,--,--,--,12,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,68,0,--,--,--,--,12,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,69,0,--,--,--,--,13,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,70,0,--,--,--,--,13,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,71,0,--,--,--,--,13,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,72,0,--,--,--,--,13,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,73,0,--,--,--,--,14,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,74,0,--,--,--,--,14,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,75,0,--,--,--,--,14,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,76,0,--,--,--,--,14,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,77,0,--,--,--,--,15,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,78,0,--,--,--,--,15,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,79,0,--,--,--,--,15,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,80,0,--,--,--,--,15,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,81,0,--,--,--,--,16,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,82,0,--,--,--,--,16,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,83,0,--,--,--,--,16,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,84,0,--,--,--,--,16,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,85,0,--,--,--,--,17,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,86,0,--,--,--,--,17,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,87,0,--,--,--,--,17,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,88,0,--,--,--,--,17,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,89,0,--,--,--,--,18,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,90,0,--,--,--,--,18,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,91,0,--,--,--,--,18,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,92,0,--,--,--,--,18,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,93,0,--,--,--,--,19,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,94,0,--,--,--,--,19,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,95,0,--,--,--,--,19,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,96,0,--,--,--,--,19,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,97,0,--,--,--,--,20,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,98,0,--,--,--,--,20,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,99,0,--,--,--,--,20,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,100,0,--,--,--,--,20,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,101,0,--,--,--,--,21,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,102,0,--,--,--,--,21,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,103,0,--,--,--,--,21,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,104,0,--,--,--,--,21,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,105,0,--,--,--,--,22,0,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,106,0,--,--,--,--,22,5,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,107,0,--,--,--,--,22,30,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,108,0,--,--,--,--,22,35,8,2,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,109,0,--,--,--,--,23,0,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,110,0,--,--,--,--,23,5,8,2,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,111,0,--,--,--,--,0,0,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,112,0,--,--,--,--,0,5,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,113,0,--,--,--,--,1,0,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,114,0,--,--,--,--,1,5,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,115,0,--,--,--,--,2,0,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,116,0,--,--,--,--,2,5,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,117,0,--,--,--,--,3,0,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,118,0,--,--,--,--,3,5,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,119,0,--,--,--,--,4,0,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,120,0,--,--,--,--,4,5,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,121,0,--,--,--,--,5,0,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,122,0,--,--,--,--,5,5,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,123,0,--,--,--,--,6,0,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,124,0,--,--,--,--,6,5,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,125,0,--,--,--,--,7,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,126,0,--,--,--,--,7,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,127,0,--,--,--,--,7,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,128,0,--,--,--,--,7,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,129,0,--,--,--,--,8,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,130,0,--,--,--,--,8,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,131,0,--,--,--,--,8,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,132,0,--,--,--,--,8,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,133,0,--,--,--,--,9,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,134,0,--,--,--,--,9,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,135,0,--,--,--,--,9,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,136,0,--,--,--,--,9,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,137,0,--,--,--,--,10,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,138,0,--,--,--,--,10,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,139,0,--,--,--,--,10,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,140,0,--,--,--,--,10,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,141,0,--,--,--,--,11,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,142,0,--,--,--,--,11,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,143,0,--,--,--,--,11,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,144,0,--,--,--,--,11,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,145,0,--,--,--,--,12,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,146,0,--,--,--,--,12,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,147,0,--,--,--,--,12,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,148,0,--,--,--,--,12,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,149,0,--,--,--,--,13,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,150,0,--,--,--,--,13,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,151,0,--,--,--,--,13,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,152,0,--,--,--,--,13,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,153,0,--,--,--,--,14,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,154,0,--,--,--,--,14,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,155,0,--,--,--,--,14,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,156,0,--,--,--,--,14,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,157,0,--,--,--,--,15,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,158,0,--,--,--,--,15,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,159,0,--,--,--,--,15,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,160,0,--,--,--,--,15,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,161,0,--,--,--,--,16,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,162,0,--,--,--,--,16,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,163,0,--,--,--,--,16,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,164,0,--,--,--,--,16,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,165,0,--,--,--,--,17,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,166,0,--,--,--,--,17,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,167,0,--,--,--,--,17,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,168,0,--,--,--,--,17,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,169,0,--,--,--,--,18,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,170,0,--,--,--,--,18,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,171,0,--,--,--,--,18,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,172,0,--,--,--,--,18,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,173,0,--,--,--,--,19,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,174,0,--,--,--,--,19,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,175,0,--,--,--,--,19,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,176,0,--,--,--,--,19,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,177,0,--,--,--,--,20,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,178,0,--,--,--,--,20,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,179,0,--,--,--,--,20,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,180,0,--,--,--,--,20,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,181,0,--,--,--,--,21,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,182,0,--,--,--,--,21,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,183,0,--,--,--,--,21,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,184,0,--,--,--,--,21,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,185,0,--,--,--,--,22,0,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,186,0,--,--,--,--,22,5,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,187,0,--,--,--,--,22,30,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,188,0,--,--,--,--,22,35,8,3,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,189,0,--,--,--,--,23,0,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,190,0,--,--,--,--,23,5,8,3,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,191,0,--,--,--,--,0,0,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,192,0,--,--,--,--,0,5,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,193,0,--,--,--,--,1,0,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,194,0,--,--,--,--,1,5,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,195,0,--,--,--,--,2,0,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,196,0,--,--,--,--,2,5,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,197,0,--,--,--,--,3,0,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,198,0,--,--,--,--,3,5,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,199,0,--,--,--,--,4,0,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,200,0,--,--,--,--,4,5,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,201,0,--,--,--,--,5,0,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,202,0,--,--,--,--,5,5,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,203,0,--,--,--,--,6,0,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,204,0,--,--,--,--,6,5,8,4,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Bao Duo,00168744,Male,205,0,--,--,--,--,7,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,206,0,--,--,--,--,7,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,207,0,--,--,--,--,7,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,208,0,--,--,--,--,7,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,209,0,--,--,--,--,8,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,210,0,--,--,--,--,8,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,211,0,--,--,--,--,8,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,212,0,--,--,--,--,8,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,213,0,--,--,--,--,9,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,214,0,--,--,--,--,9,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,215,0,--,--,--,--,9,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,216,0,--,--,--,--,9,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,217,0,--,--,--,--,10,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,218,0,--,--,--,--,10,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,219,0,--,--,--,--,10,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,220,0,--,--,--,--,10,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,221,0,--,--,--,--,11,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,222,0,--,--,--,--,11,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,223,0,--,--,--,--,11,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,224,0,--,--,--,--,11,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,225,0,--,--,--,--,12,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,226,0,--,--,--,--,12,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,227,0,--,--,--,--,12,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,228,0,--,--,--,--,12,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,229,0,--,--,--,--,13,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,230,0,--,--,--,--,13,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,231,0,--,--,--,--,13,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,232,0,--,--,--,--,13,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,233,0,--,--,--,--,14,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,234,0,--,--,--,--,14,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,235,0,--,--,--,--,14,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,236,0,--,--,--,--,14,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,237,0,--,--,--,--,15,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,238,0,--,--,--,--,15,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,239,0,--,--,--,--,15,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,240,0,--,--,--,--,15,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,241,0,--,--,--,--,16,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,242,0,--,--,--,--,16,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,243,0,--,--,--,--,16,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,244,0,--,--,--,--,16,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,245,0,--,--,--,--,17,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,246,0,--,--,--,--,17,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,247,0,--,--,--,--,17,30,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,248,0,--,--,--,--,17,35,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,249,0,--,--,--,--,18,0,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168744,Male,250,0,--,--,--,--,18,5,8,4,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168769,Prefer,1,0,117,72,86,87,13,46,8,26,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,2,0,108,67,81,81,14,0,8,26,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,3,0,154,102,90,119,14,30,8,26,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,4,0,119,90,84,100,15,0,8,26,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,5,0,123,71,83,88,15,30,8,26,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,6,0,125,86,75,99,16,0,8,26,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,7,0,--,--,--,--,16,8,8,26,2024,1,User abort,Omitted Awake BP
+Bao Duo,00168769,Prefer,8,0,--,--,--,--,16,30,8,26,2024,1,User abort,Omitted Awake BP
+Bao Duo,00168769,Prefer,9,0,144,86,98,105,8,6,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,10,0,130,88,107,102,8,8,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,11,0,121,77,90,92,8,30,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,12,0,117,76,91,90,9,0,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,13,0,123,78,90,93,9,30,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,14,0,119,78,88,92,10,0,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,15,0,136,85,94,102,10,30,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,16,0,112,76,83,88,11,0,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,17,0,129,90,84,103,11,30,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,18,0,142,90,80,107,12,0,8,27,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168769,Prefer,19,0,176,99,86,125,12,5,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,20,0,151,104,104,120,12,30,8,27,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168769,Prefer,21,0,137,89,92,105,12,35,8,27,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168769,Prefer,22,0,122,84,87,97,13,0,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,23,0,126,78,91,94,13,30,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,24,0,112,67,76,82,14,0,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,25,0,114,74,88,87,14,30,8,27,2024,1,Artifact/Erratic signal,Omitted Awake BP
+Bao Duo,00168769,Prefer,26,0,101,62,91,75,14,35,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,27,0,110,62,82,78,15,0,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,28,0,153,78,89,103,15,11,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,29,0,114,69,87,84,15,30,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,30,0,116,78,87,91,16,0,8,27,2024,0,,Edited Awake BP
+Bao Duo,00168769,Prefer,7,0,--,--,--,--,16,8,8,26,2024,1,,Omitted Awake BP
+Bao Duo,00168769,Prefer,8,0,--,--,--,--,16,30,8,26,2024,1,,Omitted Awake BP
+Bao Duo,00168769,Prefer,18,0,142,90,80,107,12,0,8,27,2024,1,,Omitted Awake BP
+Bao Duo,00168769,Prefer,20,0,151,104,104,120,12,30,8,27,2024,1,,Omitted Awake BP
+Bao Duo,00168769,Prefer,21,0,137,89,92,105,12,35,8,27,2024,1,,Omitted Awake BP
+Bao Duo,00168769,Prefer,25,0,114,74,88,87,14,30,8,27,2024,1,,Omitted Awake BP
+Me Hi,9132024,Prefer,1,0,117,81,88,93,9,23,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,2,0,121,83,90,96,9,26,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,3,0,142,100,101,114,10,0,9,13,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Me Hi,9132024,Prefer,4,0,148,81,89,103,10,5,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,5,0,130,76,76,94,10,30,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,6,0,98,78,94,85,11,0,9,13,2024,1,Artifact/Erratic signal,Omitted Asleep BP
+Me Hi,9132024,Prefer,7,0,130,88,73,102,11,5,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,8,0,132,80,79,97,11,30,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,9,0,125,74,65,91,12,0,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,10,0,123,78,84,93,12,30,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,11,0,118,70,83,86,13,0,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,12,0,155,90,89,112,13,30,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,13,0,142,80,83,101,14,0,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,14,0,130,78,82,95,14,30,9,13,2024,0,,Edited Asleep BP
+Me Hi,9132024,Prefer,15,0,--,--,--,--,21,37,9,13,2024,1,User abort,Omitted Awake BP
+Me Hi,9132024,Prefer,16,0,--,--,--,--,22,0,9,13,2024,1,User abort,Omitted Awake BP
+Me Hi,9132024,Prefer,17,0,--,--,--,--,22,18,9,13,2024,1,User abort,Omitted Awake BP
+Me Hi,9132024,Prefer,18,0,--,--,--,--,22,30,9,13,2024,1,Air leak,Omitted Awake BP
+Me Hi,9132024,Prefer,19,0,--,--,--,--,22,34,9,13,2024,1,Air leak,Omitted Awake BP
