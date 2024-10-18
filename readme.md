@@ -24,10 +24,6 @@ You can install `pandas` using pip:
 ```bash
 pip install pandas
 ```
-Here is the continuation from where you left off:
-
-```md
-```
 
 ## How It Works
 
