@@ -45,21 +45,17 @@ pip install pandas
 
 ## Usage
 
-### 1. Modify the Folder Path
-
-In the script, you need to specify the folder path where your `.asc` files are stored. Replace the path in the `folder_path` variable:
-
-```python
-folder_path = 'C:/path/to/your/asc/files'
-```
-
-### 2. Run the Script
+### 1. Run the Script
 
 Simply run the Python script to process the `.asc` files and generate the outputs.
 
 ```bash
 python process_asc_files.py
 ```
+
+### 2. Enter the Path to .asc Directory
+
+When you run the script, the system will prompt you to enter the path to the directory containing the .asc files. To use the directory from which you are running the script (current working directory), simply hit enter. The script will automatically search the provided directory, as well as any subdirectories, for .asc files.
 
 ### 3. Outputs
 
@@ -93,7 +89,7 @@ date: 10/19/2024 : 3 measurements
 
 ### `process_and_merge_asc_files_in_folder(folder_path)`
 This is the main function of the script. It:
-- Reads all `.asc` files in the specified folder.
+- Reads all `.asc` files in the specified folder and its subdirectories.
 - Processes each file to extract patient data and measurement details.
 - Merges the processed data into a single CSV file.
 - Calls the `list_patient_measurements()` function to summarize patient measurements.
