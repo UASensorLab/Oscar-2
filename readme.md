@@ -55,7 +55,7 @@ python process_asc_files.py
 
 ### 2. Enter the Path to .asc Directory
 
-When you run the script, the system will prompt you to enter the path to the directory containing the .asc files. To use the directory from which you are running the script (current working directory), simply hit enter. The script will automatically search the provided directory, as well as any subdirectories, for .asc files.
+When you run the script, the system will prompt you to enter the path to the directory containing the `.asc` files. To use the directory from which you are running the script (current working directory), simply hit enter. The script will automatically search the provided directory, as well as any subdirectories, for `.asc` files.
 
 ### 3. Outputs
 
