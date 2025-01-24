@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 from datetime import datetime
+import glob
 
 columns_to_extract = ['Patient Name', 'Patient ID', 'Sex','Index', 'Reason', 'Sys', 'Dia', 'HR', 'Mean', 'Hour', 'Minute', 'Month', 'Day', 'Year', 'Tag', 'Comments', 'Collection Stage']
 
@@ -197,14 +198,18 @@ def list_patient_measurements(df, output_measurements_file):
 def process_and_merge_asc_files_in_folder(folder_path):
     merged_data = pd.DataFrame(columns=columns_to_extract)
 
-    for filename in os.listdir(folder_path):
-        if filename.endswith(".asc"):
-            file_path = os.path.join(folder_path, filename)
-            print(f"Processing file: {file_path}")
-            with open(file_path, 'r') as file:
-                asc_data = file.readlines()
-            processed_data = process_asc_file_with_all_indices(asc_data)
-            merged_data = pd.concat([merged_data, processed_data], ignore_index=True).drop_duplicates()
+    asc_files = glob.glob(os.path.join(folder_path, '**', '*.asc'), recursive=True)
+
+    if not asc_files:
+        print("No .asc files found in the given directory or subdirectories.")
+        return
+   
+    for file_path in asc_files:
+        print(f"Processing file: {file_path}")
+        with open(file_path, 'r') as file:
+            asc_data = file.readlines()
+        processed_data = process_asc_file_with_all_indices(asc_data)
+        merged_data = pd.concat([merged_data, processed_data], ignore_index=True).drop_duplicates()
 
     timestamp = datetime.now().strftime('%Y%m%d_%H%M')
     output_file = f'merged_processed_data_{timestamp}.csv'
@@ -216,7 +221,13 @@ def process_and_merge_asc_files_in_folder(folder_path):
     # Call function to list patient measurements and save them to a TXT or CSV
     list_patient_measurements(merged_data, output_measurements_file)
 # 
-folder_path = 'C:/Users/q1n/Documents/Oscar 2'  # path of the folder 
+
+folder_path = input("Please indicate the folder that has the data to be processed or press enter to process all files in this folder (including subfolders): ")
+while not os.path.isdir(folder_path) and folder_path:
+    folder_path = input("Invalid folder path. Please indicate the folder that has the data to be processed or press enter to process all files in this folder (including subfolders): ")
+if not folder_path:
+    folder_path = os.getcwd()
+
 process_and_merge_asc_files_in_folder(folder_path)
 
 
