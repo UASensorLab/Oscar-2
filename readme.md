@@ -50,7 +50,7 @@ pip install pandas
 Simply run the Python script to process the `.asc` files and generate the outputs.
 
 ```bash
-python process_asc_files.py
+python DataFilter.py
 ```
 
 ### 2. Enter the Path to .asc Directory

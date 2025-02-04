@@ -5,7 +5,7 @@ import glob
 
 columns_to_extract = ['Patient Name', 'Patient ID', 'Sex','Index', 'Reason', 'Sys', 'Dia', 'HR', 'Mean', 'Hour', 'Minute', 'Month', 'Day', 'Year', 'Tag', 'Comments', 'Collection Stage']
 
-def extract_patient_info_from_footer(asc_data):
+def extract_patient_info_from_footer(asc_data, delim):
     patient_name = None
     patient_id = None
     sex_type = None
@@ -14,15 +14,15 @@ def extract_patient_info_from_footer(asc_data):
     for i, line in enumerate(asc_data):
         if "Patient Name" in line and "Patient ID" in line and "Sex" in line:
             # The next line contains the actual patient data
-            patient_info_line = asc_data[i + 1].split()  # Split by whitespace or tabs
-            patient_name = patient_info_line[0] + " " + patient_info_line[1]  # Extracting Patient Name (First + Last)
-            patient_id = patient_info_line[2]  # Extracting Patient ID
+            patient_info_line = asc_data[i + 1].split(delim)  # Split by delimiter
+            patient_name = patient_info_line[0].strip()
+            patient_id = patient_info_line[1]  # Extracting Patient ID
             sex_type = patient_info_line[3]
             break
     return patient_name, patient_id, sex_type
 
 # Function to read stages from the ASC file and assign them to indices
-def read_stages_from_asc(asc_data):
+def read_stages_from_asc(asc_data, delim):
     stages = {}
     current_stage = None
     indices_in_stage = 0
@@ -63,7 +63,7 @@ def read_stages_from_asc(asc_data):
             cleaned_line = asc_data[i].strip()
 
             if cleaned_line and cleaned_line[0].isdigit():
-                index = int(cleaned_line.split('\t')[0])
+                index = int(cleaned_line.split(delim)[0])
                 stages[index] = current_stage
                 indices_in_stage -= 1
 
@@ -85,14 +85,20 @@ def process_asc_file_with_all_indices(asc_data):
     last_index = 0
     #current_stage = None  
 
-    patient_name, patient_id, sex_type = extract_patient_info_from_footer(asc_data)
+    # Check for delimiter
+    if ',' in asc_data[2]:
+        delim = ','
+    else:
+        delim = '\t'
+
+    patient_name, patient_id, sex_type = extract_patient_info_from_footer(asc_data, delim)
   
-    stages = read_stages_from_asc(asc_data)
+    stages = read_stages_from_asc(asc_data, delim)
 
     for line in asc_data:
         if headers_found:
-            line_data = line.strip().split('\t')
-            if len(line_data) >= 23 and line_data[0].isdigit():  # Ensure the index is numeric
+            line_data = line.strip().split(delim)
+            if len(line_data) >= 14 and line_data[0].isdigit():  # Ensure the index is numeric
                 index = int(line_data[0])
 
                 # Fill missing indices between the last index and the current one
@@ -118,25 +124,46 @@ def process_asc_file_with_all_indices(asc_data):
                     })
                 seen_indices.add(index)
 
-                processed_data.append({
-                    'Patient Name': patient_name,
-                    'Patient ID': patient_id,
-                    'Sex': sex_type,
-                    'Index': line_data[0],
-                    'Reason': line_data[1],
-                    'Sys': line_data[2],
-                    'Dia': line_data[3],
-                    'HR': line_data[4],
-                    'Mean': line_data[5],
-                    'Hour': line_data[14],
-                    'Minute': line_data[15],
-                    'Month': line_data[16],
-                    'Day': line_data[17],
-                    'Year': line_data[18],
-                    'Tag': line_data[22],
-                    'Comments': line_data[23] if len(line_data) > 23 else '',
-                    'Collection Stage': stages.get(index, '--')
-                })
+                if len(line_data) >= 23:
+                    processed_data.append({
+                        'Patient Name': patient_name,
+                        'Patient ID': patient_id,
+                        'Sex': sex_type,
+                        'Index': line_data[0],
+                        'Reason': line_data[1],
+                        'Sys': line_data[2],
+                        'Dia': line_data[3],
+                        'HR': line_data[4],
+                        'Mean': line_data[5],
+                        'Hour': line_data[14],
+                        'Minute': line_data[15],
+                        'Month': line_data[16],
+                        'Day': line_data[17],
+                        'Year': line_data[18],
+                        'Tag': line_data[22],
+                        'Comments': line_data[23] if len(line_data) > 23 else '',
+                        'Collection Stage': stages.get(index, '--')
+                    })
+                else:
+                    processed_data.append({
+                        'Patient Name': patient_name,
+                        'Patient ID': patient_id,
+                        'Sex': sex_type,
+                        'Index': line_data[0],
+                        'Reason': line_data[1],
+                        'Sys': line_data[2],
+                        'Dia': line_data[3],
+                        'HR': line_data[4],
+                        'Mean': line_data[5],
+                        'Hour': line_data[6],
+                        'Minute': line_data[7],
+                        'Month': line_data[8],
+                        'Day': line_data[9],
+                        'Year': line_data[10],
+                        'Tag': line_data[12],
+                        'Comments': line_data[13] if len(line_data) > 13 else '',
+                        'Collection Stage': stages.get(index, '--')
+                    })
                 last_index = index
         elif line.startswith('Index'):
             headers_found = True
@@ -146,6 +173,7 @@ def process_asc_file_with_all_indices(asc_data):
     df['Index'] = pd.to_numeric(df['Index'], errors='coerce')
 
     df = df.dropna(subset=['Index'])
+    # print(df)
 
     # Group by 'Index' and keep the row with the most filled data
     cleaned_df = df.loc[df.groupby('Index').apply(lambda x: x.apply(count_non_missing, axis=1).idxmax())]
