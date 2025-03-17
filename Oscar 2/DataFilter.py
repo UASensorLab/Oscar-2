@@ -216,7 +216,7 @@ def process_and_merge_asc_files_in_folder(folder_path):
     # Call function to list patient measurements and save them to a TXT or CSV
     list_patient_measurements(merged_data, output_measurements_file)
 # 
-folder_path = 'C:/Users/q1n/Documents/Oscar 2'  # path of the folder 
+folder_path = 'C:/Users/q1n/Documents/Oscar 2'  # path of the folder where everything is stored
 process_and_merge_asc_files_in_folder(folder_path)
 
 
